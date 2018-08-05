@@ -1,4 +1,4 @@
-menu.onlick = function myFunction() {
+menu.onclick = function myFunction() {
 	var x = document.getElementById("myTopnav");
 
 	if(x.className === "topnav") {
@@ -7,4 +7,3 @@ menu.onlick = function myFunction() {
 		x.className = "topnav";
 	}
 }
-
