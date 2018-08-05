@@ -17,6 +17,8 @@ body {
 }
 
 .logo {
+	/*background: linear-gradient(180deg, black, darkgray
+		);*/
 	background: #000;
 	width: 100%;
 	display: flex;
@@ -25,8 +27,8 @@ body {
 
 .graficlogo {
 	padding: 15px 0 0 0;
-	max-width: 100%;
-	max-height: 190px;
+	max-width: 80%;
+	max-height: 160px;
 	box-sizing: border-box;
 }
 
@@ -84,7 +86,8 @@ nav {
 footer {
 	width: 100%;
 	height: auto;
-	background: #000;
+    /*background: linear-gradient(360deg, black, darkgray);*/
+    background: #000;
 	margin: 0 auto;
 	text-align: center;
 	padding: 25px 0 25px 0;
@@ -327,6 +330,10 @@ textarea {
 
 .services img {
 	 max-width: 100%;
+}
+
+.container-location h1 {
+	margin: 0 0 20px 20px;
 }
 
 @media screen and (max-width: 768px) {
