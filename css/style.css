@@ -42,6 +42,7 @@ nav {
 	font-size: 14px;
 	margin: 40px 6% 40px 9%;
 	width: 85%;
+	z-index: 100;
 }
 
 .topnav a {
@@ -129,6 +130,7 @@ footer p {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto 50px auto;
+	z-index: 2;
 
 }
 
@@ -246,6 +248,7 @@ footer p {
 	width: 100%;
 	height: 400px;
 	background-color: grey;
+	z-index: 1;
 }
 
 .form {
