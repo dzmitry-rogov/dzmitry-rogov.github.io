@@ -53,7 +53,7 @@ nav {
 }
 
 .topnav a:hover {
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid gray;
 }
 
 .topnav .icon {
@@ -102,7 +102,7 @@ footer a {
 }
 
 footer nav a:hover {
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid gray;
 }
 
 footer .graficlogo {
@@ -386,6 +386,10 @@ textarea {
 
 	.blog-container {
 		max-width: 28rem;
+	}
+
+	.topnav .border-bottom {
+		border-bottom: 1px solid black;
 	}
 }
 
