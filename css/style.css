@@ -25,7 +25,7 @@ body {
 	justify-content: center;
 }
 
-header {
+header.logo {
 	text-align: center;
 }
 
@@ -53,7 +53,7 @@ nav {
 	font-size: 15px;
 }
 
-.topnav a:hover {
+.topnav a:not(:last-child):hover {
 	border-bottom: 2px solid gray;
 }
 
@@ -109,7 +109,7 @@ footer nav a:hover {
 footer .graficlogo {
 	padding: 10px;
 	max-width: 80%;
-	max-height: 100px;
+	max-height: 160px;
 }
 
 .social img {
@@ -342,8 +342,8 @@ textarea {
 
 @media screen and (max-width: 768px) {
 	.topnav {
-		width: 100%;
-		margin: 40px 0 40px 0;
+		width: 94%;
+		margin: 40px 3% 40px 3%;
 	}
 	.topnav a:not(:first-child) {
 		display: none;
@@ -358,18 +358,23 @@ textarea {
 	nav {
 		width: 100%;
 		height: 50px;
+		z-index: 3;
 	}
 
 	.topnav.responsive {
 		position: relative;
 		z-index: 100;
 		background-color: rgba(255, 255, 255, 0.9);
+		width: 94%;
+		margin: 27px 0 40px 0;
+		padding: 0 3% 0 3%;
 	}
 
 	.topnav.responsive a.icon {
 		position:absolute;
-		right: 0;
-		top: 0;
+		display: block;
+		right: 3%;
+		top: 13px;
 	}
 
 	.topnav.responsive a {
