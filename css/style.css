@@ -379,6 +379,10 @@ textarea {
 		z-index: 3;
 	}
 
+	footer nav {
+		height: 19px;
+	}
+
 	.topnav.responsive {
 		position: relative;
 		z-index: 100;
