@@ -29,7 +29,13 @@ header.logo {
 	text-align: center;
 }
 
-.graficlogo {
+.a-graficname {
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+
+.graficlogo-img {
 	padding: 10px 10px 0 10px;
 	max-width: 80%;
 	max-height: 100px;
@@ -104,12 +110,6 @@ footer a {
 
 footer nav a:hover {
 	border-bottom: 1px solid gray;
-}
-
-footer .graficlogo {
-	padding: 10px;
-	max-width: 80%;
-	max-height: 160px;
 }
 
 .social img {
@@ -341,6 +341,18 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+	.logo {
+		min-height: 114px;
+	}
+
+	.graficlogo-img {
+		position: absolute;
+		padding: 10px 10px 0 10px;
+		max-width: 80%;
+		max-height: 100px;
+		right: 50px;
+	}
+
 	.topnav {
 		width: 94%;
 		margin: 40px 3% 40px 3%;
@@ -402,6 +414,14 @@ textarea {
 }
 
 @media screen and (max-width: 420px) {
+	.a-graficname {
+		left: 2%;
+	}
+
+	.graficlogo-img {
+		right: 2%;
+	}
+
 	.advantages {
 		flex-direction: column;
 	}
