@@ -359,6 +359,10 @@ textarea {
 		right: 50px;
 	}
 
+	.a-graficname {
+		left: 50px;
+	}
+
 	.topnav {
 		width: 94%;
 		margin: 40px 3% 40px 3%;
@@ -425,11 +429,15 @@ textarea {
 
 @media screen and (max-width: 420px) {
 	.a-graficname {
-		left: 2%;
+		left: 5%;
 	}
 
 	.graficlogo-img {
 		right: 2%;
+	}
+
+	footer nav {
+		height: 33px;
 	}
 
 	.advantages {
