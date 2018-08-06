@@ -379,12 +379,12 @@ textarea {
 
 	nav {
 		width: 100%;
-		height: 50px;
+		height: 22px;
 		z-index: 3;
 	}
 
-	footer nav {
-		height: 19px;
+	.logo-footer {
+		margin-top: 5px;
 	}
 
 	.topnav.responsive {
@@ -437,7 +437,11 @@ textarea {
 	}
 
 	footer nav {
-		height: 33px;
+		height: 40px;
+	}
+
+	.logo-footer {
+		margin-top: 1px;
 	}
 
 	.advantages {
