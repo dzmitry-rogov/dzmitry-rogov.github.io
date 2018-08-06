@@ -122,6 +122,12 @@ footer nav a:hover {
 	border-radius: 50%;
 }
 
+.graficlogo-img-footer {
+	padding: 10px;
+	max-width: 80%;
+	max-height: 160px;
+}
+
 footer p {
 	color: white;
 	text-align: center;
