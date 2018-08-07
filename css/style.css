@@ -23,6 +23,7 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	min-height: 114px;
 }
 
 header.logo {
@@ -66,17 +67,6 @@ nav {
 .topnav .icon {
 	 display: none;
 }
-
-.slide_show_container {
-	max-width: 90%;
-	position: relative;
-	margin: auto;
-}
-
-.slide_show_container img {
-	max-height: 500px;
-}
-
 
 .advantages_container {
 	display: flex;
