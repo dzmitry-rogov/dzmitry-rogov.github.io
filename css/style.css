@@ -67,10 +67,16 @@ nav {
 	 display: none;
 }
 
-.mw-100 {
-	width: 100%;
+.slide_show_container {
+	max-width: 90%;
+	position: relative;
+	margin: auto;
+}
+
+.slide_show_container img {
 	max-height: 500px;
 }
+
 
 .advantages_container {
 	display: flex;
