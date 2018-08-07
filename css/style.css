@@ -346,6 +346,22 @@ textarea {
 	margin: 0 0 20px 20px;
 }
 
+.btnAddNewBlog {
+	display: block;
+	color: #ffffff;
+	background-color: #181818;
+	width: 50rem;
+	border-radius: 5px;
+	padding: 10px;
+	border:0;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+}
+
+.btnAddNewBlog:active {
+	background: linear-gradient(#181818, gray);
+}
+
 @media screen and (max-width: 768px) {
 	.logo {
 		min-height: 114px;
@@ -429,6 +445,10 @@ textarea {
 	.topnav .border-bottom {
 		border-bottom: 1px solid black;
 	}
+
+	.btnAddNewBlog {
+		max-width: 28rem;
+	}
 }
 
 @media screen and (max-width: 420px) {
@@ -480,4 +500,7 @@ textarea {
 		grid-template-columns: auto;
 	}
 
+	.btnAddNewBlog {
+		max-width: 20rem;
+	}
 }
