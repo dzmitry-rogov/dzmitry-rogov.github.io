@@ -41,6 +41,6 @@ addNewBlogId.onclick =  function () {
         '\t\t\t\t\t\t\t<li class="published-date">4 days ago</li>\n' +
         '\t\t\t\t\t\t</ul>\n' +
         '\t\t\t\t\t</div>';
-    div.className = 'blog-container';
+    div.className = 'blog-container-new';
     blogContainer.appendChild(div);
 }

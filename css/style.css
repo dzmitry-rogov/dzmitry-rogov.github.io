@@ -159,11 +159,21 @@ footer p {
 
 .blog-container {
 	background-color: #fafafa;
-	border-right: 5px;
+	border-radius: 5px;
 	box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
 	font-weight: 100;
 	margin: 48px auto;
-	width: 50rem; 
+	width: 50rem;
+}
+
+.blog-container-new {
+    background-color: #fafafa;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
+    font-weight: 100;
+    margin: 48px auto;
+    width: 50rem;
 }
 
 .blog-container a:hover {
@@ -442,6 +452,11 @@ textarea {
 		max-width: 28rem;
 	}
 
+    .blog-container-new {
+        max-width: 28rem;
+        border: 1px solid red;
+    }
+
 	.topnav .border-bottom {
 		border-bottom: 1px solid black;
 	}
@@ -495,6 +510,11 @@ textarea {
 	.blog-container {
 		max-width: 20rem;
 	}
+
+    .blog-container-new {
+        max-width: 20rem;
+        border: 1px solid red;
+    }
 
 	.services-container {
 		grid-template-columns: auto;
