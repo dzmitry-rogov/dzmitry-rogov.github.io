@@ -7,7 +7,7 @@
 }
 
 .slide_show_container img {
-    max-height: 500px;
+    max-height: 450px;
 }
 
 .my_slides {
@@ -88,6 +88,10 @@
 
     .number_text {
         font-size: 12px;
+    }
+
+    .slide_show_container img {
+        max-height: 300px;
     }
 }
 
